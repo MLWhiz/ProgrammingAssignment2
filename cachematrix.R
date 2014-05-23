@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Creates a list of set,get,setmatrix,getmatrix for an input matrix
+## Creates a list of set,get,setmatrix,getmatrix functions for an input matrix and outputs them as list
 
 makeCacheMatrix <- function(x = matrix()) {
 m <- NULL
@@ -19,7 +19,7 @@ m <- NULL
 }
 
 
-## Gives the inverse of a matrix 
+## Gives the inverse of a matrix if it is cached else calculates it using solve() and sets the inverse in the cache
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
