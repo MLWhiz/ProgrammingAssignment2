@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Creates a list of set,get,setmatrix,getmatrix functions for an input matrix and outputs them as list
+## creates a list of set,get,setmatrix,getmatrix functions for an input matrix and outputs them as list
 
 makeCacheMatrix <- function(x = matrix()) {
 					m <- NULL
